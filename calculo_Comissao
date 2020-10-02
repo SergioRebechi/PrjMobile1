@@ -13,14 +13,18 @@
     <?php
 
         // Variáveis
-        $num1=10;
-        $num2=20;
+        $num1=0;
+        $num2=0;
 
         // Efetua a soma
         $total = $num1+$num2;
+        $total1 = $num1*$num2;
+        $total2 = $num1-$num2;
+        $total3 = $num1/$num2;
+
 
         // Mostrando Resultado
-        echo "O Resultado da soma é $total";
+        echo "O Resultado da soma é $total,$total1,$total2,$total3";
     
     ?>    
 
